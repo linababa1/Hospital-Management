@@ -28,4 +28,4 @@ FROM 'C:\Analytics Engineer\SQL PROJECTS\Hospital Management\data\billing.csv'
 DELIMITER ','
 CSV HEADER;
 
-select * from patients;
+select * from appointments;
