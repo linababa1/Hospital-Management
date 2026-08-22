@@ -279,4 +279,27 @@ Annual projection: $500,000+
 
 Every missed appointment = $3,000+ in lost revenue
 # What I learned
+Patient engagement is critical - 23.4% average completion rate reveals a severe patient engagement crisis costing the practice over $282,000 annually
+
+Revenue leakage is concentrated - Just 10 patients account for $188,155 in lost revenue, and 3 doctors represent 43% of all revenue loss ($121,446)
+
+Insurance patterns matter - MedCare Plus patients have a 78% loss rate, suggesting potential authorization or coverage barriers that need investigation
+
+Doctor performance varies significantly - Completion rates range from 21.05% to 41.67%, indicating opportunities for best practice sharing and targeted interventions
+
+
+Data quality is foundational - Using TEXT data types and proper date arithmetic prevents import errors and ensures accurate analysis
+
+SQL is powerful for healthcare analytics - CTEs, conditional aggregation, and window functions enable complex patient behavior analysis in a single query
 # Conclusion
+This project successfully analyzed healthcare appointment data using PostgreSQL to answer critical business questions about patient engagement, revenue leakage, and doctor performance. Through SQL queries, I identified:
+
+Consultation cancellations and Therapy no-shows as the top revenue leakage categories ($46,703 and $44,146 respectively)
+
+Dr. Sarah Taylor as the doctor with the highest revenue loss ($48,927) and lowest completion rate (21.05%)
+
+Laura Davis as the most at-risk patient with 10 appointments and 0 completions, costing the practice $30,053
+
+MedCare Plus as the insurance provider with the highest loss rate (78%), representing $122,696 in lost revenue
+
+Dr. Robert Davis as the top performer with a 41.67% completion rate, providing a benchmark for best practices
